@@ -1,0 +1,109 @@
+/* General Page Style */
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f2f4f8;
+    color:#333;
+}
+
+/* Header */
+.profile-header{
+    text-align:center;
+    background:linear-gradient(120deg,#0077ff,#00c6ff);
+    color:white;
+    padding:30px 20px;
+}
+
+.profile-header img{
+    border-radius:50%;
+    border:3px solid white;
+}
+
+.subtitle{
+    font-size:18px;
+    margin:5px 0;
+}
+
+.tagline{
+    font-style:italic;
+    font-size:14px;
+}
+
+/* Navigation */
+nav{
+    background:#222;
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+}
+
+nav ul li{
+    margin:0;
+}
+
+nav ul li a{
+    display:block;
+    padding:15px 20px;
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    background:#0077ff;
+}
+
+/* Main Layout */
+main{
+    width:80%;
+    margin:auto;
+    padding:20px 0;
+}
+
+/* Cards */
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Section Titles */
+h2{
+    color:#0077ff;
+    margin-bottom:10px;
+}
+
+/* Skills List */
+.skills ul{
+    display:flex;
+    gap:20px;
+    padding:0;
+}
+
+.skills li{
+    list-style:none;
+    background:#0077ff;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+}
+
+/* Projects */
+.projects article{
+    margin-bottom:15px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:15px;
+}
